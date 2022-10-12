@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .demo{
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Class Attribute</h1>
+        <p class="demo">This is content 1.</p>
+        <p class="demo">This is content 2.</p>
+        <button onclick="test();">TEST</button>
+        <script>
+            function test(){
+                document.getElementsByClassName("demo")[0].innerHTML = "Hello My Love";
+                document.getElementsByClassName("demo")[1].innerHTML = "O sl B T";
+
+               // document.getElementById("demo").innerHTML="Hello HTML";
+            }
+        </script>
+    </body>
+</html>
